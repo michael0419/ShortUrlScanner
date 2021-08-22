@@ -1,4 +1,4 @@
-# ShortUrlScanner
+# ShortUrlScanner - Upload
 My final project for Internet and Web Technologies class Fall 2020
 
 unedited
