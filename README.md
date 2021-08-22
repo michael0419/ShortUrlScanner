@@ -1,7 +1,8 @@
 # ShortUrlScanner - Upload
 My final project for Internet and Web Technologies class Fall 2020
 
-unedited
+local node.js web server desgined to take in a url to scan and return a bit.ly link to results page of the scan
+this way it's easier to share scan results and information about a webpage
 
 Features:
   - Node.js
