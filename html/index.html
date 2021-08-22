@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ShortUrlScanner</title>
+		<style>
+            .text{
+                color: rgb(23, 255, 23);
+                width: auto;
+                font-style: bold;
+            }
+            .button{
+                font-size: 16px;
+                background-color: darkred;
+                border-radius: 3px;
+                border-width: 1px;
+                border-color: black;
+                font-style: bold;
+                color: white;
+
+            }
+            .formline{
+                margin-top: 25px;
+                font-size:30px;
+            }
+            .iconimg{
+                height: 100px;
+                width: 100px;
+                float: left;
+                margin-top: -20px;
+                margin-left: 20px;
+                background-image: url('/images/mask.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+            body{
+                background-color: aquamarine;
+                background-image: url('/images/WorldVirus.jpg');
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            h1{
+                font-size: 48px;
+                background-color: rgb(29, 47, 87);
+            }
+            h3{
+                font-size:20px;
+                background-color: rgb(29, 47, 87);
+            }
+            p{
+                font-size: 18px;
+                background-color: rgb(29, 47, 87);
+            }
+            form{
+                margin:auto;
+                width:50%;
+                height: 100px;
+            }
+            fieldset{
+                border-radius: 10px;
+                border-width: 8px;
+                border-color: black;
+                background-color: darkcyan;
+                height: 150px;
+            }
+            legend{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 30px;
+                color: magenta; 
+                background-color: cyan;
+                border-width: 4px;
+                border-style: solid;
+                border-color: black;
+                
+            }
+		</style>
+	</head>
+	<body>
+        <h1 class = "text">ShortUrlScanner</h1>
+        <h3 class = "text" >A final project showcasing usage of APIs </h3>
+        <p class = "text" >This website will allow users to scan URLs by urlscan.io and get their results page in a shortened bitly link</p>
+        <p class = "text" >Stay safe on the internet by scanning urls before clicking on them!</p>
+		<form action="submit_form" method="get">
+			<fieldset>
+                <legend >ShortUrlScanner</legend>
+                <div class = "formline">
+                    <div class = "iconimg"></div>
+				    <label for="urlToScan" class = "text">Copy in URL to Scan:</label>
+                    <input id="urlToScan" name="urlToScan" type="text" />
+                    <input type="submit" value="submit_form" class="button"/>
+                </div>
+                
+			</fieldset>
+		</form>
+	</body>
+</html>
